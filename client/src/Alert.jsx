@@ -1,5 +1,5 @@
 const alertStyle={
-    padding: "16px",
+    padding: "15px",
     borderRadius: "6px",
     fontSize: "16px",
     fontWeight: 400,
@@ -17,8 +17,6 @@ const Alert=() => {
         text: '⚠️ There is a line limit, please write carefully',
         type: 'warning'
     }
-    
-
     const fullStyles={
         ...alertStyle,
         ...severityStyles[alert.type],
