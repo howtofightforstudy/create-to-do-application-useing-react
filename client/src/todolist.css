@@ -11,24 +11,24 @@ body {
       'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
       sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale; 
 
     background-image: url('./images/image4.jpg');
-    background-size: cover; /* Görselin ekrana tam uymasını sağlar */
-    background-position: center; /* Görselin ortalanmasını sağlar */
-    background-repeat: no-repeat;
-  }
-  
-  .completed {
-    text-decoration: line-through; /* Üstünü çizer */
-    font-weight: bold;
+    background-size: cover; /*görselin ekrana tam uymasını sağlar*/
+    background-position: center; /*görselin ortalanmasını sağlar*/
+    background-repeat: no-repeat; /*arka plan resminin tekrarlanmadan sadece bir kez görüntülenmesini sağla*/
   }
   
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
   }
-  
+
+    .completed {
+    text-decoration: line-through; 
+    font-weight: bold;
+  }
+
   .card {
     background-color:rgb(229, 208, 179);
     margin: 10px;
@@ -163,7 +163,7 @@ body {
     }
     .taskItem {
       text-align: left;
-      font-size: 10px;
+      font-size: 9px;
     }
     .taskList {
       text-align: left;
